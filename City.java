@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class City {
+public class City extends Locality{
+
+
+    public City(String supervisor) {
+        super(supervisor);
+    }
 }
